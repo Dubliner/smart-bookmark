@@ -1,0 +1,30 @@
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="popup.js"></script>
+</head>
+<body>
+
+<div id="header">
+	<a id="logo" href="http://www.quora.com" target="_quora">Quora</a>
+	<form class="search_form" action="#" onsubmit="search(); return false" method="get" name="search_form">
+		<input id="search_button" type="submit" value="Search" />
+		<input id="question_box" type="text" value="" maxlength="150" name="q" />
+		<input type="hidden" name="context_type" />
+		<input type="hidden" name="context_id" />
+		<input type="hidden" name="source" value="chrome-extension" />
+	</form>
+</div>
+
+<div id="mail"></div>
+
+<div id="notifications">
+	<h3 id="n_title">New Notifications</h3>
+	
+	<ul id="n_list">
+	
+	</ul>
+</div>
+</body>
+</html>
