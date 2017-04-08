@@ -1,14 +1,1 @@
-Published to Chrome Web Store!
-  https://chrome.google.com/webstore/detail/gnnbgffjfpnecggjijijanegfdhdaodn
-
-Recent changes:
- - Removed "tabs" permission requirement. Wasn't needed to create a tab, actually.
- - Clarifications in code commenting
- - Removed rogue ? in css url so css should cache again
- 
-Current problems:
- - AFAIK none
-
-Todo:
- - Allow users to mark notifications read from extension
- - Group notifications together if they're from the same question
+smart-bookmark that combines user browsing history with book marks created.
